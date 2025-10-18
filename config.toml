@@ -1,0 +1,6 @@
+base_url = "https://banning-band.com"
+title = "Banning Band"
+description = "Official website of Banning Band"
+
+[extra]
+author = "Banning Band"
