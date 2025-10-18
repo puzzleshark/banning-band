@@ -9,6 +9,7 @@
     devShells.x86_64-linux.default = nixpkgs.legacyPackages.x86_64-linux.mkShell {
       buildInputs = [
         nixpkgs.legacyPackages.x86_64-linux.zola
+        nixpkgs.legacyPackages.x86_64-linux.just
       ];
     };
   };

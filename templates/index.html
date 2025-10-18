@@ -3,6 +3,7 @@
 {% block content %}
 <section class="hero">
     <div class="hero-content">
+        <img src="{{ get_url(path='images/band-rehearsal.jpg') }}" alt="Banning Band rehearsal" style="width: 100%; max-width: 600px; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
         <h1>{{ section.title }}</h1>
         <p>{{ section.description }}</p>
     </div>
@@ -13,16 +14,19 @@
         <h2>The Band</h2>
         <div class="members-grid">
             <div class="member-card">
-                <h3>Sibling 1</h3>
-                <p>Vocals & Piano</p>
+                <img src="{{ get_url(path='images/band-photo-1.jpg') }}" alt="Sam Banning" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+                <h3>Sam Banning</h3>
+                <p>Guitar & Vocals</p>
             </div>
             <div class="member-card">
-                <h3>Sibling 2</h3>
-                <p>Bass & Vocals</p>
+                <img src="{{ get_url(path='images/band-photo-2.jpg') }}" alt="Joe Banning" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+                <h3>Joe Banning</h3>
+                <p>Bass, Percussion & Vocals</p>
             </div>
             <div class="member-card">
-                <h3>Sibling 3</h3>
-                <p>Drums & Percussion</p>
+                <img src="{{ get_url(path='images/band-photo-3.jpg') }}" alt="Anya Banning" style="width: 100%; border-radius: 10px; margin-bottom: 15px;">
+                <h3>Anya Banning</h3>
+                <p>Lead Vocals & Percussion</p>
             </div>
         </div>
     </div>
@@ -44,4 +48,31 @@
         </div>
     </div>
 </section>
-{% endblock %}
+<section class="videos" id="videos">
+    <div class="container">
+        <h2>Live Performances</h2>
+        <div class="videos-grid">
+            <div class="video-card">
+                <video controls style="width: 100%; border-radius: 10px;">
+                    <source src="{{ get_url(path='videos/performance-1.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Performance 1</h3>
+            </div>
+            <div class="video-card">
+                <video controls style="width: 100%; border-radius: 10px;">
+                    <source src="{{ get_url(path='videos/performance-2.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Performance 2</h3>
+            </div>
+            <div class="video-card">
+                <video controls style="width: 100%; border-radius: 10px;">
+                    <source src="{{ get_url(path='videos/performance-3.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>Performance 3</h3>
+            </div>
+        </div>
+    </div>
+</section>
