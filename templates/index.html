@@ -3,8 +3,8 @@
 {% block content %}
 <section class="hero">
     <div class="hero-content">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
+        <h1>{{ section.title }}</h1>
+        <p>{{ section.description }}</p>
     </div>
 </section>
 
@@ -31,7 +31,7 @@
 <section class="music-style" id="music">
     <div class="container">
         <h2>Our Sound</h2>
-        <p>{{ page.content | safe }}</p>
+        {{ section.content | safe }}
         <div class="influences">
             <h3>Our Influences</h3>
             <ul>
@@ -39,7 +39,7 @@
                 <li>Nat King Cole</li>
                 <li>Ella Fitzgerald</li>
                 <li>Frank Sinatra</li>
-                <li>Billy Holiday</li>
+                <li>Billie Holiday</li>
             </ul>
         </div>
     </div>
