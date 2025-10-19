@@ -1,6 +1,6 @@
-base_url = "https://puzzleshark.github.io/banning-band/"
-title = "Banning Band"
-description = "Official website of Banning Band"
+base_url = "https://groove.banning.ca/"
+title = "Banning Groove"
+description = "Official website of Banning Groove"
 default_language = "en"
 
 # Zola configuration
