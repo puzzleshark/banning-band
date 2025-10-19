@@ -1,12 +1,12 @@
 +++
-title = "Banning Band"
-description = "Three siblings bringing the timeless elegance of jazz lounge music to life"
+title = "Banning Groove"
+description = "Three siblings grooving with timeless jazz lounge music"
 template = "index.html"
 sort_by = "none"
 render = true
 +++
 
-# Banning Band
+# Banning Groove
 
 Three siblings united by blood and a shared love for the golden age of jazz. We bring the intimate, smoky atmosphere of vintage lounge music to life with our interpretations of classics from Chet Baker, Nat King Cole, Ella Fitzgerald, and the great American songbook.
 

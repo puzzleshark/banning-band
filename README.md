@@ -1,6 +1,6 @@
-# Banning Band
+# Banning Groove
 
-A static website for Banning Band, built with [Zola](https://www.getzola.org/).
+A static website for Banning Groove, built with [Zola](https://www.getzola.org/).
 
 ## About
 
