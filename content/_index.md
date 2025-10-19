@@ -1,6 +1,9 @@
 +++
 title = "Banning Band"
 description = "Three siblings bringing the timeless elegance of jazz lounge music to life"
+template = "index.html"
+sort_by = "none"
+render = true
 +++
 
 # Banning Band
