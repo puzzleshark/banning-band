@@ -24,3 +24,7 @@
 ## Development Environment
 
 - Use Nix shell: `nix develop` to enter development environment with Zola
+
+## Committing and Pushing Changes
+
+- IMPORTANT: Do not commit and push changes unless the user explicitly requests it.
