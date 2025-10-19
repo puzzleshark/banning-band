@@ -265,3 +265,19 @@ video {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
+
+/* Footer */
+footer {
+    background: #E6D7C3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    border-top: 1px solid var(--primary-color);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-weight: 500;
+}
