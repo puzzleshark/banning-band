@@ -41,9 +41,32 @@ header {
 
 .tagline {
     font-size: 1.5em;
-    margin: 10px 0;
+    margin: 10px 0 30px;
     opacity: 0.9;
     font-style: italic;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background: var(--accent-color);
+    color: var(--text-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Hero Section */
