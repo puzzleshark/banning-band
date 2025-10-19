@@ -1,16 +1,15 @@
-/* Jazz Lounge Aesthetic */
+/* Monochrome Theme */
 :root {
-    --primary-color: #8B4513;
-    --secondary-color: #D2B48C;
-    --accent-color: #FFD700;
-    --text-color: #2F1B14;
-    --bg-color: #F5F5DC;
-    --dark-bg: #1A1A1A;
+    --bg-color: #ffffff; /* White */
+    --text-color: #1a1b26; /* Dark */
+    --primary-color: #1a1b26; /* Dark */
+    --secondary-color: #bb9af7; /* Purple for variety */
+    --dark-bg: #1a1b26; /* Dark */
 }
 
 body {
     font-family: 'Georgia', serif;
-    background: #E6D7C3;
+    background: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
     margin: 0;
@@ -25,7 +24,7 @@ body {
 
 /* Header */
 header {
-    background: #E6D7C3;
+    background: var(--bg-color);
     color: var(--text-color);
     padding: 60px 0;
     text-align: center;
@@ -51,12 +50,12 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 25px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(0,0,0,0.1);
     transition: all 0.3s ease;
     font-weight: bold;
     letter-spacing: 1px;
@@ -98,7 +97,7 @@ nav a:hover {
 .hero h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: var(--accent-color);
+    color: white;
 }
 
 .hero p {
@@ -235,7 +234,7 @@ nav a:hover {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 50px;
-    color: var(--accent-color);
+    color: white;
 }
 
 .videos-grid {
@@ -256,7 +255,7 @@ nav a:hover {
 }
 
 .video-card h3 {
-    color: var(--accent-color);
+    color: white;
     margin-top: 15px;
     font-size: 1.3em;
 }
@@ -268,7 +267,7 @@ video {
 
 /* Footer */
 footer {
-    background: #E6D7C3;
+    background: var(--bg-color);
     text-align: center;
     padding: 20px;
     margin-top: 0;
