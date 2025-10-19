@@ -204,13 +204,23 @@ nav a:hover {
     .band-name {
         font-size: 2.5em;
     }
-    
+
     .hero h1 {
         font-size: 2em;
     }
-    
+
     .members-grid {
         grid-template-columns: 1fr;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 5px 10px;
     }
 }
 
