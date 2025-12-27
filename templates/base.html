@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
@@ -8,6 +9,7 @@
     <link rel="apple-touch-icon" href="{{ get_url(path='apple-touch-icon.png') }}">
     <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -31,4 +33,5 @@
         <p>&copy; 2025 {{ config.title }}. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
